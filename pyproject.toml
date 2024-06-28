@@ -23,7 +23,7 @@ bitsandbytes = "*"
 pybgen = "*"
 art = "*"
 rhe = "==1.0.0"
-torch = { version = "2.2.1+cu118", source = "pytorch-cu118" }
+torch = { version = "2.2.1", source = "pytorch-cu118" }
 
 [tool.poetry.dev-dependencies]
 pip = ">=23"
